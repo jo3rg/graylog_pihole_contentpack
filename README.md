@@ -13,6 +13,12 @@ destination d_graylog {udp("server.ip" port(1515)); };
 log { source(s_pihole_log); destination(d_graylog); };
 ```
 
+### Graylog prerequisites:
+Change the Message Processor Configuration within (System -> Configuration -> Message Processor Configuration):
+![](2023-02-14-16-40-01.png)
+
+### Dashboard Demo:
+![](2023-02-14-16-53-45.png)
 
 ### Content Pack includes:
 
