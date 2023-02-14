@@ -1,7 +1,7 @@
 # Graylog4 supported
 ``Content Pack for PiHole 5 with Graylog``  
   
-Built and based off of https://github.com/chateaulav/pihole & https://github.com/agreenbhm/pihole_graylog_content_pack. Includes setting GeoIP, so ensure you download the current City db from Maxmind, and install the current Threat intelligence content packs. A seperate input is established to collect only pihole syslog traffic.
+Built and based off of https://github.com/chateaulav/pihole & https://github.com/agreenbhm/pihole_graylog_content_pack which both rely heavily on https://jalogisch.de/2017/der-eigene-dns-resolver-zuhause/ Includes setting GeoIP, so ensure you download the current City db from Maxmind, and install the current Threat intelligence content packs. A seperate input is established to collect only pihole syslog traffic.
 
 ## Syslog requirements
 **syslog-ng** *Best option, simple and only sends pihole data*
